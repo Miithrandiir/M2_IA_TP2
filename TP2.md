@@ -43,3 +43,17 @@ On constate que la moyenne des scores est la même que pour le résultat d'avant
 
 On constate ici que **split_Pclass_3** à une influence négative sur le fait de survivre. On constate par ailleurs que le coût du ticket (Fare) n'a aucune influence sur le fait de survivre ou non, tout comme le numéro de passager (PassengerId).
 D'un autre côté la variable **split_Pclass_1** montre qu'on avait plus de chance de survivre si l'on faisait partie de la première classe.
+
+### 4 Troisième modèle
+#### Question 3
+![Image](img/part_4_question_3.png)
+On constate ici que l'on a plus de chance de survivre si l'on est dans la catégorie 'Female' (donc enfant et femme) et que l'on a moins de chance de survivre si l'on est un homme.
+"Les femmes et les enfants d'abord".
+
+#### Question 4
+![](img/part_4_question_4.png)
+On constate sur cet histogramme que la tranche des 30 ans est la tranche où il y a eu beaucoup plus de victime.
+
+#### Question 5
+![](img/part_4_question_6.png)
+Selon le graphique, si l'on est enfant on a beaucoup plus de chance de s'en sortir vivant.

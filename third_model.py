@@ -30,6 +30,7 @@ def split_value(data):
     X = data
     class_dummies = pd.get_dummies(X['Sex'], prefix='split_Sexe')
     X = X.join(class_dummies)
+    X['is_child'] = X.Age < 8
     to_del = ['Name', 'Cabin', 'Embarked', 'Ticket', 'Sex', 'Pclass']
     for col in to_del:
         del X[col]
