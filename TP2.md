@@ -22,3 +22,24 @@
   - C = Cherbourg
   - Q = Queenstown
   - S = Southampton
+
+### 2 Premier modèle de niveau 0
+#### question 2
+
+Nous utilisons la validation croisée car l'échantillon de données est trop faible. On ne pourrait pas prendre N données pour apprendre et Y données pour tester car on se retrouverait avec trop peu de données.
+
+### 3 Deuxième modèle
+#### Question 3
+
+La variable PClass semble être importante, elle montre que la 3ème classe a subi beaucoup plus de perte que les autres. Elle semble néanmoins moins utile pour discrimer les catégories 1 & 2
+
+#### Question 5
+
+On constate que la moyenne des scores est la même que pour le résultat d'avant. Ceci s'explique par le fait que nous venons de retirer des données qui n'étaient pas importantes (non correlé avec la variable cible).
+
+#### Question 6
+
+![Image](img/plot_lr_coefs.png)
+
+On constate ici que **split_Pclass_3** à une influence négative sur le fait de survivre. On constate par ailleurs que le coût du ticket (Fare) n'a aucune influence sur le fait de survivre ou non, tout comme le numéro de passager (PassengerId).
+D'un autre côté la variable **split_Pclass_1** montre qu'on avait plus de chance de survivre si l'on faisait partie de la première classe.
