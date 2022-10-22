@@ -57,3 +57,7 @@ On constate sur cet histogramme que la tranche des 30 ans est la tranche où il 
 #### Question 5
 ![](img/part_4_question_6.png)
 Selon le graphique, si l'on est enfant on a beaucoup plus de chance de s'en sortir vivant.
+
+### 5 Quatrième modèle
+
+#### Question 1
