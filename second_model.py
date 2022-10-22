@@ -25,7 +25,7 @@ def parse_model_1(X):
 
 
 train = pd.read_csv('data/titanic_train.csv', sep=',')
-
+train.set_index('PassengerId', inplace=True, drop=True)
 survived = train[train.Survived == 1]
 dead = train[train.Survived == 0]
 plot_hist('Pclass')

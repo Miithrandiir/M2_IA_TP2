@@ -26,16 +26,16 @@
 ### 2 Premier modèle de niveau 0
 #### question 2
 
-Nous utilisons la validation croisée car l'échantillon de données est trop faible. On ne pourrait pas prendre N données pour apprendre et Y données pour tester car on se retrouverait avec trop peu de données.
+Nous utilisons la validation croisée, car l'échantillon de données est trop faible. On ne pourrait pas prendre N données pour apprendre et Y données pour tester car on se retrouverait avec trop peu de données.
 
 ### 3 Deuxième modèle
 #### Question 3
 
-La variable PClass semble être importante, elle montre que la 3ème classe a subi beaucoup plus de perte que les autres. Elle semble néanmoins moins utile pour discrimer les catégories 1 & 2
+La variable PClass semble être importante, elle montre que la 3ᵉ classe a subi beaucoup plus de perte que les autres. Elle semble néanmoins moins utile pour discrimer les catégories 1 & 2
 
 #### Question 5
 
-On constate que la moyenne des scores est la même que pour le résultat d'avant. Ceci s'explique par le fait que nous venons de retirer des données qui n'étaient pas importantes (non correlé avec la variable cible).
+On constate que la moyenne des scores est sensiblement la même que pour le résultat d'avant. Ceci s'explique par le fait que nous venons de retirer des données qui n'étaient pas importantes (non correlé avec la variable cible).
 
 #### Question 6
 
@@ -47,7 +47,7 @@ D'un autre côté la variable **split_Pclass_1** montre qu'on avait plus de chan
 ### 4 Troisième modèle
 #### Question 3
 ![Image](img/part_4_question_3.png)
-On constate ici que l'on a plus de chance de survivre si l'on est dans la catégorie 'Female' (donc enfant et femme) et que l'on a moins de chance de survivre si l'on est un homme.
+On constate ici que l'on a plus de chance de survivre si l'on est dans la catégorie 'Female' et que l'on a moins de chance de survivre si l'on est un homme.
 "Les femmes et les enfants d'abord".
 
 #### Question 4

@@ -1,5 +1,3 @@
-import pandas as pd
-import seaborn as sn
 import numpy as np
 from sklearn.model_selection import cross_val_score
 from sklearn.linear_model import LogisticRegression
